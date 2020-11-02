@@ -1,0 +1,217 @@
+@import "base_menu.less";
+
+.title {
+  width      : 100%;
+  height     : 700px;
+  overflow   : hidden;
+  background : url(../img/down-app.png) no-repeat center;
+  min-width  : 1000px;
+  .fixed-box {
+    position : relative;
+    height   : 700px;
+  }
+}
+.app-down {
+  position : absolute;
+  z-index  : 999;
+  right    : 52px;
+  top      : 225px;
+  .down {
+    margin-bottom : 10px;
+    width         : 190px;
+    height        : 50px;
+    border        : 1px solid white;
+    border-radius : 5px;
+    line-height   : 50px;
+    text-align    : left;
+    background    : url(../icon/platform.png) no-repeat -10px -2px;
+    &:nth-child(2) {
+      background-position : -65px -2px;
+    }
+    &:nth-child(3) {
+      background-position : -115px -2px;
+    }
+    a {
+      display          : inline-block;
+      color            : white;
+      text-decoration  : none;
+      width            : 110px;
+      background-color : #3eabf9;
+      margin-left      : 50px;
+      font-size        : 18px;
+      text-align       : center;
+    }
+  }
+}
+.content {
+  a {
+    display : inline-block;
+  }
+  .down_type {
+    margin-top : 20px;
+  }
+  .moble {
+    width       : 100%;
+    height      : auto;
+    float       : left;
+    text-align  : center;
+    font-size   : 22px;
+    padding     : 25px 0;
+    line-height : 40px;
+  }
+  .butn_bg {
+    width         : 190px;
+    height        : 50px;
+    padding       : 0;
+    margin        : 10px auto;
+    display       : inline-block;
+    color         : #fff;
+    background    : #3facfa;
+    font-size     : 18px;
+    line-height   : 50px;
+    text-align    : center;
+    font-weight   : 700;
+    border-radius : 5px;
+  }
+  .apple {
+    width      : 33%;
+    height     : auto;
+    float      : left;
+    text-align : center;
+    overflow   : hidden;
+    a {
+      .apple_href {
+        display : block;
+        height  : auto;
+        width   : 100%;
+        img {
+          display : block;
+          margin  : 0 auto;
+          width   : 160px;
+          height  : 160px;
+        }
+      }
+    }
+    .butn_bg {
+      background-color : #3facfa
+    }
+  }
+  .android {
+    width      : 33%;
+    height     : auto;
+    float      : left;
+    text-align : center;
+    a {
+      .android_href {
+        display : block;
+        height  : auto;
+        width   : 100%;
+        img {
+          display : block;
+          margin  : 0 auto;
+          width   : 160px;
+          height  : 160px;
+        }
+      }
+    }
+    .butn_bg {
+      background-color : #a7c738
+    }
+  }
+  .pc {
+    width      : 33%;
+    height     : auto;
+    float      : left;
+    text-align : center;
+    a {
+      .pc_href {
+        display : block;
+        height  : auto;
+        width   : 100%;
+        img {
+          display : block;
+          margin  : 0 auto;
+          width   : 160px;
+          height  : 160px;
+        }
+      }
+    }
+    .butn_bg {
+      background-color : #67227a
+    }
+  }
+}
+/*.content .moble:after{content:"\0020";clear:both;display:block;}*/
+.app-info {
+  width       : 85%;
+  height      : auto;
+  text-align  : center;
+  font-size   : 23px;
+  overflow    : hidden;
+  padding     : 10px 35px 50px 35px;
+  line-height : 40px;
+  margin      : 0 auto;
+  .app-left {
+    float : left;
+    width : 66.66%;
+    .app-shouji {
+      float      : left;
+      height     : 100px;
+      width      : 65%;
+      text-align : left;
+    }
+    .app-left {
+      p {
+        color       : gray;
+        text-indent : 5px;
+      }
+      h1 {
+        a {
+          color           : #3facfa;
+          font-size       : 40px;
+          text-decoration : underline;
+        }
+      }
+      .app-addr {
+        float       : right;
+        height      : 100px;
+        width       : 35%;
+        line-height : 105px;
+        text-align  : left;
+      }
+    }
+  }
+  .remind {
+    div {
+      font-size  : 16px;
+      text-align : left;
+      p {
+        height      : 22px;
+        line-height : 22px;
+        font-size   : 17px;
+      }
+    }
+  }
+  .liji-visit {
+    display          : inline-block;
+    width            : 180px;
+    height           : 50px;
+    text-align       : center;
+    line-height      : 50px;
+    background-color : #3facfa;
+    border-radius    : 5px;
+    color            : white;
+  }
+  .app-right {
+    float : right;
+    width : 33.34%;
+  }
+  .app-model {
+    height     : 250px;
+    margin-top : -20px;
+    img {
+      width : 250px;
+    }
+  }
+}
+@import "base_foot.less";

@@ -1,0 +1,239 @@
+.menu {
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 2px #4184F3;
+  /*background: #4184F3;*/
+  /*#4285F4;*/
+  /*#408ddb;#3F84F0;#4285F4*/
+}
+.menu .container {
+  height: 65px;
+  overflow: visible !important;
+}
+.menu .logo {
+  width: 148px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.menu .logo img {
+  max-width: 140px;
+}
+.menu .nav {
+  width: auto;
+  height: 25px;
+  position: absolute;
+  top: 25px;
+  left: 136px;
+  background-color: #FFFFFF;
+  line-height: 25px !important;
+}
+.menu .nav ul {
+  width: auto;
+  position: relative;
+}
+.menu .nav ul li {
+  width: auto;
+  height: 25px;
+  margin: 0 10px 0 5px;
+  float: left;
+  position: relative;
+}
+.menu .nav ul li a {
+  font-size: 15px;
+  color: #555;
+  line-height: 25px;
+  /* text-shadow: #555 0 0 1px;*/
+}
+.menu .nav ul li a:visited {
+  color: #555;
+}
+.menu .nav ul li a:hover {
+  color: #E84235;
+}
+.menu .nav ul li .child_navs {
+  display: none;
+  padding: 0 0 5px 0;
+  position: absolute;
+  left: -1px;
+  top: 25px;
+  z-index: 10;
+  background-color: #fff;
+  min-width: 180px;
+  border: solid 1px #4184F3;
+  /*border-radius: 5px;*/
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+.menu .nav ul li .child_navs li {
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+}
+.menu .nav ul li .child_navs li a {
+  line-height: 25px;
+  font-size: 14px;
+  color: #0054AF;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu .nav ul li .child_navs li a:visited {
+  color: #0054AF;
+}
+.menu .nav ul li .child_navs li a:hover {
+  color: #E84235;
+}
+.menu .new_ch a {
+  position: relative;
+}
+.menu .new_ch span {
+  z-index: 1;
+  color: #fff;
+  background-color: red;
+  right: -16px;
+  top: -12px;
+  font-size: 12px;
+  position: absolute;
+  line-height: 14px;
+}
+#main {
+  margin-top: 20px;
+}
+.head_bg {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.head_bg img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.contact_method {
+  width: 100%;
+  border: 1px solid #cdcdcd;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+.box {
+  width: 98%;
+  box-sizing: border-box;
+  padding: 0 65px;
+  margin-bottom: 20px;
+}
+.box .address {
+  margin: 0 auto;
+  height: 90px;
+  line-height: 90px;
+  font-size: 20px;
+}
+.box .address span {
+  display: inline-block;
+}
+.box .address img {
+  float: left;
+  vertical-align: center;
+}
+.box .advertise {
+  text-align: center;
+  font-size: 15px;
+}
+.wrap {
+  font-family: "微软雅黑";
+  padding: 0 30px;
+}
+.wrap strong {
+  color: #0D4E8E;
+}
+.wrap h1 {
+  font-weight: bold;
+  display: block;
+  font-size: 2em;
+  margin: 0.67em auto 0.67em auto;
+}
+.wrap h2 {
+  font-size: 1.5em;
+  margin: 0.83em auto 0.83em auto;
+}
+.wrap ul,
+.wrap li {
+  list-style: none;
+  padding: 0;
+}
+.wrap h1 {
+  text-align: center;
+}
+.wrap p {
+  text-indent: 30px;
+}
+.wrap ul > li {
+  text-indent: 30px;
+}
+.wrap ul > li ul li {
+  text-indent: 40px;
+}
+.wrap .title {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 18px;
+}
+.wrap .date {
+  text-align: right;
+}
+.wrap .date + .date {
+  padding-bottom: 10px;
+}
+.wrap .top-info {
+  text-indent: 25px;
+  line-height: 20px;
+}
+.wrap .info {
+  margin: 20px 0 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+.wrap .info-list {
+  margin-bottom: 20px;
+}
+.wrap .info-list li {
+  list-style: none;
+}
+.wrap .list + .list {
+  margin-top: 10px;
+}
+.wrap .list .tlt {
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrap .list .list-ent {
+  text-indent: 25px;
+}
+.wrap .list .sub-tlt {
+  font-size: 14px;
+}
+.wrap .list .sub-tlt2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.wrap .list .li-ent {
+  padding-left: 20px;
+  text-indent: 25px;
+}
+.wrap .list .li-ent2 {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.wrap .unline {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.footer {
+  margin: 25px auto 25px auto;
+  text-align: center;
+  line-height: 30px;
+  width: 670px;
+  position: relative;
+  font-size: 12px;
+}
+/*# sourceMappingURL=p_corp.css.map */

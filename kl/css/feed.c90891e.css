@@ -1,0 +1,676 @@
+.feed {
+    font-family: "Microsoft YaHei"
+}
+
+.feed__item {
+    border-bottom: 1px dashed #d9d9d9;
+    padding: 14px 0
+}
+
+.feed__item:hover {
+    background-color: #f7f7f7
+}
+
+.feed__imgbox, .feed__textbox {
+    display: inline-block;
+    vertical-align: top;
+    position: relative
+}
+
+.feed__img {
+    display: block;
+    overflow: hidden
+}
+
+.feed__img img {
+    position: relative
+}
+
+.feed__title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 20px;
+    color: #333
+}
+
+.feed__title:hover {
+    color: #00b777;
+    text-decoration: underline;
+    outline: 0
+}
+
+.feed__desc, .feed__other {
+    display: block;
+    overflow: hidden;
+    font-size: 12px
+}
+
+.feed__desc {
+    margin: 8px 0
+}
+
+.feed__tag {
+    float: left;
+    border-radius: 2px;
+    border: 1px solid #8ccaaf;
+    padding: 0 2px;
+    margin-right: 5px;
+    margin-top: 7px;
+    line-height: 16px;
+    color: #8ccaaf
+}
+
+.feed__tag:hover {
+    color: #8ccaaf
+}
+
+.feed__tag.rstag {
+    border: solid 1px #E9E9E9;
+    color: #666
+}
+
+.feed__time, .feed__source {
+    float: left;
+    margin-right: 12px;
+    margin-top: 0;
+    height: 24px;
+    line-height: 32px;
+    color: #bbb
+}
+
+.feed__source:hover {
+    color: #00b777;
+    text-decoration: underline;
+    outline: 0
+}
+
+.feed__share {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-top: 6px;
+    cursor: pointer
+}
+
+.feed__share:hover .share__opts {
+    display: block
+}
+
+.feed__share:hover .share__more {
+    background-color: #e9e9e9;
+    opacity: 1
+}
+
+.feed__share .share__more, .feed__share .share__item {
+    width: 24px;
+    height: 24px
+}
+
+.feed__share .share__more {
+    display: block;
+    background: url(../img/share.509740c.png) -3px -48px;
+    background-color: #f2f2f2;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    opacity: .5
+}
+
+.feed__share .share__opts {
+    width: 72px;
+    height: 24px;
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #e9e9e9
+}
+
+.feed__share .share__opts .share__item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.feed__share .share__opts .share__item--tsina {
+    background: url(../img/share.509740c.png) -28px -48px no-repeat
+}
+
+.feed__share .share__opts .share__item--tsina:hover {
+    background-position: -28px -24px
+}
+
+.feed__share .share__opts .share__item--weixin {
+    background: url(../img/share.509740c.png) -54px -48px no-repeat
+}
+
+.feed__share .share__opts .share__item--weixin:hover {
+    background-position: -54px -24px
+}
+
+.feed__share .share__opts .share__item--qzone {
+    background: url(../img/share.509740c.png) -81px -48px no-repeat
+}
+
+.feed__share .share__opts .share__item--qzone:hover {
+    background-position: -81px -24px
+}
+
+.feed__share--right {
+    float: right
+}
+
+.feed__share--right .share__opts {
+    left: -72px
+}
+
+.feed__share--left {
+    float: left
+}
+
+.feed__share--left .share__opts {
+    left: 24px
+}
+
+.feed__loading {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #eee;
+    color: #766e6e
+}
+
+.feed__loading dot {
+    display: inline-block;
+    height: 1em;
+    line-height: 1;
+    text-align: left;
+    vertical-align: -.25em;
+    overflow: hidden;
+    font-family: Consolas, Monaco, monospace
+}
+
+.feed__loading dot::before {
+    display: block;
+    content: '...\A..\A.';
+    white-space: pre;
+    animation: dot 3s infinite step-start both
+}
+
+@keyframes dot {
+    33% {
+        transform: translateY(-2em)
+    }
+    66% {
+        transform: translateY(-1em)
+    }
+}
+
+.feed--index {
+    width: 630px
+}
+
+.feed--index .feed__img {
+    width: 150px;
+    height: 100px
+}
+
+.feed--index .feed__img img {
+    height: 110px
+}
+
+.feed--erji {
+    width: 820px;
+    margin-left: 0px
+}
+
+.feed--erji .feed__imgbox {
+    margin-right: 19px
+}
+
+.feed--erji .feed__img {
+    width: 123px;
+    height: 90px
+}
+
+.feed--erji .feed__img img {
+    height: 110px
+}
+
+.feed--erji .feed__textbox {
+    height: 90px
+}
+
+.feed--erji .feed__title {
+    width: 665px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.feed--erji .feed__desc {
+    display: none
+}
+
+.feed--erji .feed__other {
+    width: 665px
+}
+
+.feed--erji .feed__span {
+    float: left;
+    margin-left: 12px;
+    margin-top: 0;
+    height: 24px;
+    line-height: 32px;
+    color: #bbb
+}
+
+.feed--erji .noimg .feed__imgbox {
+    display: none
+}
+
+.feed--erji .noimg .feed__textbox, .feed--erji .noimg .feed__other {
+    width: 657px
+}
+
+.feed__item--empty .feed__imgbox, .feed__item--empty .feed__title, .feed__item--empty .feed__desc, .feed__item--empty .feed__other {
+    background-color: #eee
+}
+
+.feed--index .feed__item--empty .feed__imgbox {
+    width: 150px;
+    height: 100px
+}
+
+.feed--index .feed__item--empty .feed__textbox {
+    width: 464px;
+    height: 100px
+}
+
+.feed--index .feed__item--empty .feed__title {
+    width: 80%;
+    height: 25px
+}
+
+.feed--index .feed__item--empty .feed__other {
+    width: 90%;
+    height: 20px
+}
+
+.feed--index .feed__item--empty .feed__imgbox {
+    margin-right: 15px
+}
+
+.feed--index .feed__item--empty .feed__title {
+    margin-bottom: 8px
+}
+
+.feed--index .feed__item--empty .feed__desc {
+    width: 100%;
+    height: 18px;
+    margin: 3px 0
+}
+
+.feed--index .feed__item--empty .feed__desc--last {
+    width: 50%
+}
+
+.feed--index .feed__item--empty .feed__other {
+    margin-top: 8px
+}
+
+.feed--erji .feed__item--empty .feed__imgbox {
+    width: 123px;
+    height: 90px
+}
+
+.feed--erji .feed__item--empty .feed__textbox {
+    width: 512px;
+    height: 90px
+}
+
+.feed--erji .feed__item--empty .feed__title {
+    width: 100%;
+    height: 28px
+}
+
+.feed--erji .feed__item--empty .feed__other {
+    width: 60%;
+    height: 22px
+}
+
+.feed--erji .feed__item--empty .feed__imgbox {
+    margin-right: 19px
+}
+
+.feed--erji .feed__item--empty .feed__textbox {
+    position: relative
+}
+
+.feed--erji .feed__item--empty .feed__title {
+    position: absolute;
+    top: 0;
+    margin: 0
+}
+
+.feed--erji .feed__item--empty .feed__other {
+    position: absolute;
+    bottom: 0
+}
+
+.feed__item--mid .feed__img img {
+    opacity: 0;
+    -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out
+}
+
+.feed__item--mid .feed__other {
+    position: absolute;
+    bottom: -5px
+}
+
+.feed--index .feed__item--mid .feed__imgbox {
+    margin-right: 15px
+}
+
+.feed--index .feed__item--mid .feed__textbox {
+    height: 100px
+}
+
+.feed--index .feed__item--mid .feed__textbox .feed__title {
+    width: 464px;
+    line-height: 26px;
+    height: 26px
+}
+
+.feed--index .feed__item--mid .feed__textbox .feed__desc {
+    width: 450px;
+    color: #bbb;
+    height: 34px;
+    line-height: 16px
+}
+
+.feed--index .feed__item--mid .feed__textbox .feed__other {
+    width: 464px
+}
+
+.feed--index .feed__item--mid.noimg {
+    padding-left: 10px
+}
+
+.feed--index .feed__item--mid.noimg .feed__imgbox {
+    display: none
+}
+
+.feed--index .feed__item--mid.noimg .feed__textbox, .feed--index .feed__item--mid.noimg .feed__other {
+    width: 620px
+}
+
+.feed--index .feed__item--mid.noimg .feed__title, .feed--index .feed__item--mid.noimg .feed__desc {
+    width: 95%
+}
+
+.nomore {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    background: #f0f0f0
+}
+
+.feed--index + .nomore {
+    width: 630px
+}
+
+.feed--erji + .nomore {
+    width: 657px;
+    margin-left: 20px
+}
+
+.feed__item--tuji {
+    height: 158px
+}
+
+.feed__item--tuji .feed__textbox {
+    height: 31px
+}
+
+.feed__item--tuji .feed__imgbox {
+    width: 100%;
+    display: block
+}
+
+.feed__item--tuji .feed__imgbox .feed__img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.feed__item--tuji .feed__imgbox .feed__img.last {
+    margin-right: 0;
+    line-height: 100px;
+    text-align: center;
+    color: #999;
+    background-color: #e9e9e9;
+    cursor: pointer
+}
+
+.feed__item--tuji .feed__imgbox .feed__img.last:hover {
+    color: #0aa770;
+    text-decoration: underline
+}
+
+.feed--erji .feed__item--tuji .feed__textbox {
+    height: 35px
+}
+
+.feed--erji .feed__item--tuji .feed__textbox .feed__title {
+    margin-top: 0
+}
+
+.feed--erji .feed__item--tuji .feed__other {
+    width: 657px
+}
+
+.feed__item--video .feed__img {
+    position: relative
+}
+
+.feed__item--video .feed__img img {
+    width: 150px;
+    height: 100px
+}
+
+.feed__item--video .feed__play {
+    width: 52px;
+    height: 51px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -26px;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+
+.feed__item--video .feed__desc {
+    display: block;
+    color: #999
+}
+
+.feed__item--video .feed__desc:hover {
+    text-decoration: underline
+}
+
+.feed--index .feed__item--video .feed__imgbox {
+    margin-right: 15px
+}
+
+.feed--index .feed__item--video .feed__textbox {
+    height: 100px
+}
+
+.feed--index .feed__item--video .feed__textbox .feed__title {
+    width: 464px;
+    line-height: 26px;
+    height: 26px
+}
+
+.feed--index .feed__item--video .feed__textbox .feed__desc {
+    width: 450px;
+    color: #bbb;
+    height: 34px;
+    line-height: 16px
+}
+
+.feed--index .feed__item--video .feed__textbox .feed__other {
+    width: 464px
+}
+
+.feed--erji .feed__item--video .feed__desc {
+    display: block
+}
+
+.feed__item--cms .feed__imgbox {
+    margin-right: 15px
+}
+
+.feed__item--cms .feed__textbox {
+    height: 100px
+}
+
+.feed__item--cms .feed__textbox .feed__title {
+    width: 464px;
+    line-height: 26px;
+    height: 26px
+}
+
+.feed__item--cms .feed__textbox .feed__desc {
+    width: 450px;
+    color: #bbb;
+    height: 50px;
+    line-height: 16px
+}
+
+.feed__item--cms .feed__textbox .feed__other {
+    width: 464px
+}
+
+.feed__item--cmstuji .feed__textbox {
+    height: 35px
+}
+
+.feed__item--cmstuji .feed__textbox .feed__title {
+    margin-top: 0
+}
+
+.feed__item--cmstuji .feed__imgbox {
+    width: 100%;
+    display: block
+}
+
+.feed__item--cmstuji .feed__imgbox .feed__img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.feed__item--cmstuji .feed__imgbox .feed__img.last {
+    margin-right: 0;
+    line-height: 100px;
+    text-align: center;
+    color: #999;
+    background-color: #e9e9e9;
+    cursor: pointer
+}
+
+.feed__item--cmstuji .feed__imgbox .feed__img.last:hover {
+    color: #0aa770;
+    text-decoration: underline
+}
+
+.feed__item--cpc .feed__imgbox {
+    margin-right: 15px
+}
+
+.feed__item--cpc .feed__textbox {
+    height: 100px
+}
+
+.feed__item--cpc .feed__textbox .feed__title {
+    width: 464px;
+    line-height: 26px;
+    height: 26px
+}
+
+.feed__item--cpc .feed__textbox .feed__desc {
+    width: 450px;
+    color: #bbb;
+    height: 50px;
+    line-height: 16px
+}
+
+.feed__item--cpc .feed__textbox .feed__other {
+    width: 464px
+}
+
+.feed__item--cpctuji .feed__textbox {
+    height: 35px
+}
+
+.feed__item--cpctuji .feed__textbox .feed__title {
+    margin-top: 0
+}
+
+.feed__item--cpctuji .feed__imgbox {
+    width: 100%;
+    display: block
+}
+
+.feed__item--cpctuji .feed__imgbox .feed__img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.feed__item--cpctuji .feed__imgbox .feed__img.last {
+    margin-right: 0;
+    line-height: 100px;
+    text-align: center;
+    color: #999;
+    background-color: #e9e9e9;
+    cursor: pointer
+}
+
+.feed__item--cpctuji .feed__imgbox .feed__img.last:hover {
+    color: #0aa770;
+    text-decoration: underline
+}
+
+.feed__item--cpc, .feed__item--cpctuji {
+    position: relative
+}
+
+.feed__item--cpc .feed__extra, .feed__item--cpctuji .feed__extra {
+    font-size: 13px;
+    color: #666;
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.css_3d3cb67_a26a {
+    height: 88px
+}
+
+.feed__item--video .feed__play {
+    background-position: 0px 0px
+}
+
+.feed__item--video .feed__play {
+    background-image: url(../img/feed_z.d5e679f.png)
+}

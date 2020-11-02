@@ -1,0 +1,95 @@
+.bf-box {
+  position: fixed;
+  border: 2px solid #ccc;
+  background: #fff;
+  font-size: 12px;
+  width: auto;
+  z-index: 1;
+  display: none;
+}
+.bf-triangle {
+  display: block;
+  position: relative;
+  left: 60px;
+  top: -16px;
+  z-index: 20;
+}
+.bf-triangle .t-border,
+.bf-triangle .t-inset {
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+  border-width: 8px;
+  border-style: dashed dashed solid dashed ;
+}
+.bf-triangle .t-border {
+  border-color: transparent transparent #ccc transparent;
+  top: -2px;
+}
+.bf-triangle .t-inset {
+  border-color: transparent transparent #fff transparent;
+}
+.bf-content {
+  padding: 3px;
+  margin: 3px;
+  text-align: center;
+  line-height: 18px;
+}
+.bf-content p {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+.bf-content span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 20px;
+  background: transparent url("../icon/event_bg2.png") no-repeat 1px 3px;
+  margin: 0 3px;
+}
+.bf-content span .red {
+  background: transparent url("../icon/event_bg2.png") no-repeat 1px -93px;
+}
+.bf-content span .wulong {
+  background: transparent url("../icon/event_bg2.png") no-repeat 1px -240px;
+}
+.bf-content span .huang2 {
+  background: transparent url("../icon/event_bg2.png") no-repeat 1px -210px;
+}
+.bf-content .bf-period {
+  width: 60px;
+  float: left;
+}
+.bf-content .bf-nba {
+  float: left;
+  padding-left: 10px;
+  border-left: 2px #ccc solid;
+  min-width: 150px;
+}
+.bf-content .bf-nba span {
+  display: inline-block;
+  width: 30px;
+}
+.bf-content .bf-zuqiu1 {
+  text-align: left;
+  float: left;
+  border-right: 2px #ccc solid;
+  min-width: 150px;
+  min-height: 50px;
+}
+.bf-content .bf-zuqiu2 {
+  text-align: right;
+  float: left;
+  border-left: 2px #ccc solid;
+  min-width: 150px;
+  min-height: 50px;
+}
+.bf-content .bf-clear {
+  clear: both;
+}
+/*# sourceMappingURL=base_bifen.css.map */

@@ -1,0 +1,311 @@
+.menu {
+  width: 100%;
+  height: 50px;
+  border-bottom: solid 2px #4184F3;
+  /*background: #4184F3;*/
+  /*#4285F4;*/
+  /*#408ddb;#3F84F0;#4285F4*/
+}
+.menu .container {
+  height: 65px;
+  overflow: visible !important;
+}
+.menu .logo {
+  width: 148px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.menu .logo img {
+  max-width: 140px;
+}
+.menu .nav {
+  width: auto;
+  height: 25px;
+  position: absolute;
+  top: 25px;
+  left: 136px;
+  background-color: #FFFFFF;
+  line-height: 25px !important;
+}
+.menu .nav ul {
+  width: auto;
+  position: relative;
+}
+.menu .nav ul li {
+  width: auto;
+  height: 25px;
+  margin: 0 10px 0 5px;
+  float: left;
+  position: relative;
+}
+.menu .nav ul li a {
+  font-size: 15px;
+  color: #555;
+  line-height: 25px;
+  /* text-shadow: #555 0 0 1px;*/
+}
+.menu .nav ul li a:visited {
+  color: #555;
+}
+.menu .nav ul li a:hover {
+  color: #E84235;
+}
+.menu .nav ul li .child_navs {
+  display: none;
+  padding: 0 0 5px 0;
+  position: absolute;
+  left: -1px;
+  top: 25px;
+  z-index: 10;
+  background-color: #fff;
+  min-width: 180px;
+  border: solid 1px #4184F3;
+  /*border-radius: 5px;*/
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+.menu .nav ul li .child_navs li {
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+}
+.menu .nav ul li .child_navs li a {
+  line-height: 25px;
+  font-size: 14px;
+  color: #0054AF;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu .nav ul li .child_navs li a:visited {
+  color: #0054AF;
+}
+.menu .nav ul li .child_navs li a:hover {
+  color: #E84235;
+}
+.menu .new_ch a {
+  position: relative;
+}
+.menu .new_ch span {
+  z-index: 1;
+  color: #fff;
+  background-color: red;
+  right: -16px;
+  top: -12px;
+  font-size: 12px;
+  position: absolute;
+  line-height: 14px;
+}
+#main {
+  margin-top: 20px;
+}
+.title {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  background: url(../img/down-app.png) no-repeat center;
+  min-width: 1000px;
+}
+.title .fixed-box {
+  position: relative;
+  height: 700px;
+}
+.app-down {
+  position: absolute;
+  z-index: 999;
+  right: 52px;
+  top: 225px;
+}
+.app-down .down {
+  margin-bottom: 10px;
+  width: 190px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: left;
+  background: url(../icon/platform.png) no-repeat -10px -2px;
+}
+.app-down .down:nth-child(2) {
+  background-position: -65px -2px;
+}
+.app-down .down:nth-child(3) {
+  background-position: -115px -2px;
+}
+.app-down .down a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 110px;
+  background-color: #3eabf9;
+  margin-left: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+.content a {
+  display: inline-block;
+}
+.content .down_type {
+  margin-top: 20px;
+}
+.content .moble {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+  font-size: 22px;
+  padding: 25px 0;
+  line-height: 40px;
+}
+.content .butn_bg {
+  width: 190px;
+  height: 50px;
+  padding: 0;
+  margin: 10px auto;
+  display: inline-block;
+  color: #fff;
+  background: #3facfa;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.content .apple {
+  width: 33%;
+  height: auto;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+.content .apple a .apple_href {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.content .apple a .apple_href img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+}
+.content .apple .butn_bg {
+  background-color: #3facfa;
+}
+.content .android {
+  width: 33%;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+.content .android a .android_href {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.content .android a .android_href img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+}
+.content .android .butn_bg {
+  background-color: #a7c738;
+}
+.content .pc {
+  width: 33%;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+.content .pc a .pc_href {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.content .pc a .pc_href img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+}
+.content .pc .butn_bg {
+  background-color: #67227a;
+}
+/*.content .moble:after{content:"\0020";clear:both;display:block;}*/
+.app-info {
+  width: 85%;
+  height: auto;
+  text-align: center;
+  font-size: 23px;
+  overflow: hidden;
+  padding: 10px 35px 50px 35px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.app-info .app-left {
+  float: left;
+  width: 66.66%;
+}
+.app-info .app-left .app-shouji {
+  float: left;
+  height: 100px;
+  width: 65%;
+  text-align: left;
+}
+.app-info .app-left .app-left p {
+  color: gray;
+  text-indent: 5px;
+}
+.app-info .app-left .app-left h1 a {
+  color: #3facfa;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.app-info .app-left .app-left .app-addr {
+  float: right;
+  height: 100px;
+  width: 35%;
+  line-height: 105px;
+  text-align: left;
+}
+.app-info .remind div {
+  font-size: 16px;
+  text-align: left;
+}
+.app-info .remind div p {
+  height: 22px;
+  line-height: 22px;
+  font-size: 17px;
+}
+.app-info .liji-visit {
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #3facfa;
+  border-radius: 5px;
+  color: white;
+}
+.app-info .app-right {
+  float: right;
+  width: 33.34%;
+}
+.app-info .app-model {
+  height: 250px;
+  margin-top: -20px;
+}
+.app-info .app-model img {
+  width: 250px;
+}
+.footer {
+  margin: 25px auto 25px auto;
+  text-align: center;
+  line-height: 30px;
+  width: 670px;
+  position: relative;
+  font-size: 12px;
+}
+/*# sourceMappingURL=p_app.css.map */
