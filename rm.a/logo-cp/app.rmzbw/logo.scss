@@ -1,0 +1,6 @@
+.logo_bg {
+  background: url("logo.png") no-repeat 15px 13px;
+  &:hover {
+    background-image: url("logo_hover.png");
+  }
+}
