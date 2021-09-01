@@ -19,3 +19,6 @@ app.*/app/config.prod.php
 .settings
 .idea
 .svn
+.sass-cache
+.DS_Store
+@eaDir
